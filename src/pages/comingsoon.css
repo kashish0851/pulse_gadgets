@@ -1,0 +1,96 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #root {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .coming-soon-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    background-color: #000; /* Background color matching your design */
+    color: white;
+    text-align: center;
+  }
+  
+  .content {
+    max-width: 600px;
+    padding: 20px;
+  }
+  
+  .title {
+    font-size: 4rem;
+    margin-bottom: 20px;
+    background: -webkit-linear-gradient(45deg, #84c92e, #00a4ef, #c835de);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .description {
+    font-size: 1.5rem;
+    margin-bottom: 40px;
+  }
+  
+  .email-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .email-input {
+    padding: 10px;
+    border-radius: 5px 0 0 5px;
+    border: 1px solid #ddd;
+    outline: none;
+    width: 300px;
+  }
+  
+  .notify-button {
+    padding: 10px 20px;
+    border-radius: 0 5px 5px 0;
+    border: none;
+    background-color: #fff;
+    color: #000;
+    cursor: pointer;
+  }
+  
+  .notify-button:hover {
+    background-color: #ddd;
+  }
+  
+  .notify-text {
+    font-size: 1rem;
+    color: #aaa;
+  }
+  
+  .ready-section {
+    margin-top: 40px;
+  }
+  
+  .ready-text {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .visit-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #84c92e;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .visit-button:hover {
+    background-color: #6aa322;
+  }
+  

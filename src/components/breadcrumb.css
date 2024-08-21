@@ -1,0 +1,22 @@
+/* src/components/Breadcrumb.css */
+.breadcrumb {
+    /* padding: 100px auto ; */
+    font-size: 14px;
+    justify-items: centre;
+    text-align:center;
+    z-index:1000;
+}
+
+.breadcrumb a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.breadcrumb a:hover {
+    text-decoration: underline;
+}
+
+.breadcrumb span {
+    margin: 0 5px;
+    color: #555;
+}

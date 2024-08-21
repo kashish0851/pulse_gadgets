@@ -1,0 +1,38 @@
+/* styles.css */
+@keyframes moveTruck {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(100%);
+    }
+  }
+  
+  .add-to-cart-button {
+    position: relative;
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 20px; /* Adjust as necessary */
+  }
+  
+  .truck {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50px;
+    height: 30px;
+    background-image: url('../assests/truck1.jpg'); /* replace with your truck image */
+    background-size: contain;
+    background-repeat: no-repeat;
+    animation: moveTruck 2s linear;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  

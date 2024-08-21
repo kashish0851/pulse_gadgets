@@ -1,0 +1,29 @@
+.scroll-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 50%; /* Make the button round */
+    width: 50px; /* Adjust the size as needed */
+    height: 50px; /* Adjust the size as needed */
+    cursor: pointer;
+    z-index: 1000;
+    transition: opacity 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center the icon */
+    font-size: 20px; /* Adjust the icon size if needed */
+  }
+  
+  .scroll-to-top.show {
+    display: flex; /* Use flex to maintain centering */
+
+  }
+  
+  .scroll-to-top i {
+    font-size: 20px;
+  }
+  

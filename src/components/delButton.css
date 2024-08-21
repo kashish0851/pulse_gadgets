@@ -1,0 +1,16 @@
+.group:hover .group-hover\:translate-x-0 {
+    transform: translateX(0);
+  }
+  
+  .group:hover .group-hover\:-translate-x-0 {
+    transform: translateX(-100%);
+  }
+  
+  .group:hover .group-hover\:translate-x-full {
+    transform: translateX(100%);
+  }
+  
+  .group:hover .group-hover\:opacity-0 {
+    opacity: 0;
+  }
+  
